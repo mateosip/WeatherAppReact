@@ -1,7 +1,55 @@
-.Mostrar{
-    border:1px solid black;
-    margin-bottom:5px;
+.titulo {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 300px;
+    border-radius:10px;
+    margin-bottom: 20px;
+    background-color: aqua;
 }
-.Output{
-    
+.InputName{
+    width: 100%;
+
+    display:flex;
+    flex-direction:column;
+     align-items: center; 
+
+}
+.busqueda{
+    width: 95%;
+    margin-bottom: 10px;
+}
+.boton{
+    margin-bottom:50px;
+    cursor:pointer;
+}
+.Output :hover{
+    background-color:grey;
+    color:white;
+}
+.Output :active{
+    background-color: rgb(82, 80, 80);
+    color:white;
+}
+.Mostrar {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.MuestraDatos{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color:rgb(37, 160, 129);
+}
+
+
+.boton{
+    border:2px solid black;
+    border-radius:5px;
+    width: 100px;
+}
+.Output {
 }

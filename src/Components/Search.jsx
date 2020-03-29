@@ -36,9 +36,10 @@ class Search extends Component {
     
     return (
       <div className="Search">
-        <div className="Input Name">
-          <input id="busqueda" type="text"></input>
+        <div className="InputName">
+          <input className = "busqueda" id="busqueda" type="text"></input>
           <div
+            className="boton"
             onClick={() =>
               this.getCiudades(document.getElementById("busqueda").value)
             }
@@ -46,6 +47,7 @@ class Search extends Component {
             Search
           </div>
         </div>
+        {/* className={props.active ? "filter_button_active" : "filter_button"} */}
         <div className="Output">
           {this.state.ciudades.map(ciudad => {
             return (
